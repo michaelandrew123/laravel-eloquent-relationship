@@ -1,0 +1,131 @@
+.docs-container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+    padding: 2.625rem 1.3125rem;
+}
+.sidebar-right-bar{
+    padding-left: 4em;
+    justify-content: center;
+    text-align: justify;
+}
+article{
+    margin-top: 50px;
+}
+nav{
+    margin-top: 50px;
+}
+.board-bg-dark{
+    background-color: #272822; 
+    border-radius: .3em;
+    margin: .5em 0;
+    padding: 1em;
+    overflow: auto;
+}
+.board-bg-dark > pre[class*=language-] {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    overflow: initial;
+    float: left;
+    min-width: 100%;
+}
+
+
+code[class*=language-],
+pre[class*=language-]{
+    color: #f8f8f2;
+    background: none;
+    text-shadow: 0 1px rgba(0,0,0,.3);
+    font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+    font-size: 1em;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+} 
+pre[class*=language-]{
+    border-radius: .3em;
+}
+code {
+    font-size: 0.85rem;
+    line-height: 1.75rem;
+}
+.token.variable{
+    color: white;
+}
+.token.keyword{
+    color: #66d9ef;
+}
+.token.string{
+    color: #a6e22e;
+}
+.token.function{
+    color: #e6db74;
+}
+.token.require{
+    color:#e2805a;
+}
+.token.punctuation{
+    color: #f8f8f2;
+}
+.token.light-blue{
+    color: #6f8dfb;
+}
+.token.light-green{
+    color: #25cc77;
+}
+.token.light-brown{
+    color: #fd8a3d;
+}
+.token.light-yellow{
+    color: #efef6e;
+}
+
+.token.light-pink{
+    color: #ec93a2;
+}
+.token.dark-grey{
+    color:grey;
+}
+.token.light-cyan{
+    color: #1cf3f3;
+}
+
+.browser{
+    margin: .5em 0;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fafbf9;
+    border-radius: 20px; 
+    min-height: 40px;
+ } 
+ .browser > p{
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-left: 20px;
+ }
+ .browser-body{
+    margin: .5em 0;  
+    display:block;
+    position:relative;
+    border: 1px solid grey;
+    background-color: white; 
+    color: #000; 
+    padding: 1em;
+
+ } 
+ .browser-body > p{
+     margin-bottom: 0px;
+ }
